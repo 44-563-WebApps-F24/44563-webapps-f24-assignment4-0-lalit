@@ -34,3 +34,28 @@
     text-shadow: 2px 2px 5px yellow;
     border: 1px solid yellow;
 }
+
+table.play-cast {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table.play-cast th, table.play-cast td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+table.play-cast th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table.play-cast tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table.play-cast tr:hover {
+    background-color: #ddd;
+}
